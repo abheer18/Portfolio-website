@@ -1,0 +1,98 @@
+#background {
+  height: 70vh;
+  margin-top: 7px;
+  width: 170vw;
+  padding-top: 0;
+  position: relative;
+  top: 45px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80");
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.9;
+}
+
+.content-wrapper {
+  margin-left: 200px;
+  margin-top: -8%;
+  overflow: hidden;
+  position: relative;
+  top: 270px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_l7kUUC4HqXV2Sc5k4IQK-b401KPZAJ5ZSg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  opacity: 0.6;
+  margin-bottom: 50px;
+  height: 25vh;
+}
+
+#myname {
+  font-size: 29px;
+  margin-left: 21px;
+  color: rgb(255, 255, 255);
+  margin-top: 55px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin-right: 18px;
+}
+
+#work {
+  margin-bottom: 10px;
+  margin-right: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(233, 223, 223);
+  letter-spacing: 3px;
+  line-height: 110px;
+  font-size: 16px;
+}
+
+
+#introName {
+    font-family: "Benne", serif;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(27, 24, 24);
+    margin-left: 450px;
+    margin-bottom: 50px;
+  }
+
+  #intro {
+    font-family:15px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    color: rgb(71, 65, 65);
+    margin-top: -10px;
+    float: right;
+  }
+
+  .upper-middle-container {
+  
+    margin-top: 250px;
+    position: relative;
+    overflow: hidden;
+    z-index: 50;
+  }
+  #background2 {
+    margin-top: 80px;
+    height: 810px;
+    width: 1520px;
+    position: relative;
+    top: -730px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1507752533523-5186b0bc4c43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80");
+    background-size: cover;
+  }
+  
+  #dp {
+    margin-left: 1092px;
+    margin-top: 115px;
+    position: relative;
+    top: 45px;
+    opacity: 0.9;
+    z-index: 2;
+  }
+  

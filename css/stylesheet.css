@@ -6,8 +6,8 @@ html {
 
 ul {
   list-style-type: none;
-  margin-top: -22px;
-  background-color: rgb(14, 25, 44);
+  margin-top: -12px;
+  background-color: rgb(15, 0, 44);
   width: 100%;
   position: fixed;
   z-index: 20;
@@ -72,11 +72,11 @@ li a:hover {
   overflow: hidden;
   position: relative;
   top: 270px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_l7kUUC4HqXV2Sc5k4IQK-b401KPZAJ5ZSg&usqp=CAU");
+  background-color: rgba(0, 0, 0, 0.479);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
-  opacity: 0.6;
+  
   margin-bottom: 30px;
 }
 
@@ -104,47 +104,49 @@ li a:hover {
 }
 
 #introName {
-  font-family: "Benne", serif;
-  font-family: "Roboto Slab", serif;
-  font-size: 41px;
-  letter-spacing: 5px;
-  color: rgb(27, 24, 24);
-  margin-left: 600px;
-  margin-bottom: 50px;
+  font-family: "PT Serif", serif;
+  font-size: 70px;
+  letter-spacing: 8px;
+  color: #ffffff;
+  margin-left: 408px;
+  margin-bottom: 90px;
 }
 
 #intro {
   font-family: "Benne", serif;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 40px;
   letter-spacing: 1.5px;
-  color: rgb(44, 44, 44);
+  color: rgb(253, 250, 250);
   margin-top: -10px;
-  margin-left: 50px;
+  margin-left: 250px;
   text-align: center;
 }
 
 .upper-middle-container {
-  margin-top: 250px;
-  position: relative;
-  overflow: hidden;
+  position: absolute;
+  top:-50px;
 }
 #background2 {
-  margin-top: -980px;
+  margin-top: 80px;
   height: 810px;
   width: 1520px;
   position: relative;
-  top: 62px;
+  top: -730px;
   display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1507752533523-5186b0bc4c43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80");
+  background-size: cover;
+
 }
 
 #dp {
-  margin-left: 1092px;
-  margin-top: 115px;
+  margin-left: 98px;
+  margin-top: 107px;
   position: relative;
-  top: 45px;
-  opacity: 0.9;
+  top: 384px;
   z-index: 2;
+  opacity: 0.9;
 }
 
 #about {
@@ -158,18 +160,18 @@ li a:hover {
 }
 
 .aboutMe-container {
-  margin-top: -569px;
+  margin-top: -539px;
   font-size: 20px;
-  margin-left: -37px;
+  margin-left: 289px;
   position: relative;
-  top: 157px;
+  top: 410px;
 }
 
 .last-container {
-  margin-top: 203px;
+  margin-top: -780px;
   margin-left: 0;
   margin-right: 0px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhoXiCgl978wN9mXaDdhNyzSq6MDUoSUYXw&usqp=CAU");
+  background-image: url('https://images.unsplash.com/photo-1510511233900-1982d92bd835?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
   height: 830px;
   opacity: 0.9;
   width: 1520px;
@@ -183,50 +185,51 @@ li a:hover {
   height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 50px;
   align-items: flex-end;
-  margin-left: 242px;
+  margin-left: 285px;
+  
 }
 .box1 {
   height: 220px;
   width: 220px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(5, 1, 1);
   margin-left: -335px;
 }
 
 #html {
   height: 160px;
-width: 161px;
-margin-left: 28px;
-margin-top: 23px;
+  width: 161px;
+  margin-left: 28px;
+  margin-top: 3px;
 }
 
 .box2 {
   height: 220px;
   width: 220px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(5, 1, 1);
 }
 
 #css {
   height: 172px;
   width: 165px;
   margin-left: 29px;
-  margin-top: 19px;
+  margin-top: 0px;
 }
 
 .box3 {
   height: 220px;
   width: 220px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(5, 1, 1);
   margin-right: -147px;
 }
 
 #boot {
-  height: 165px;
-  width: 150px;
-  margin-left: 35px;
-  margin-top: 23px;
+  height: 204px;
+width: 166px;
+margin-left: 26px;
+margin-top: 0px
 }
 
 .flex-container3 {
@@ -234,16 +237,16 @@ margin-top: 23px;
   height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 50px;
   align-items: flex-end;
-  margin-left: 294px;
+  margin-left: 312px;
 }
 
 .box4 {
   height: 220px;
   width: 220px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(5, 1, 1);
   margin-right: 44px;
 }
 
@@ -251,13 +254,13 @@ margin-top: 23px;
   height: 200px;
   width: 170px;
   margin-left: 25px;
-  margin-top: 7px;
+  margin-top: 0px;
 }
 
 .box5 {
   height: 220px;
   width: 220px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(5, 1, 1);
   margin-right: 79px;
 }
 
@@ -265,7 +268,7 @@ margin-top: 23px;
   height: 193px;
   width: 184px;
   margin-left: 18px;
-  margin-top: 13px;
+  margin-top: 0px;
 }
 footer {
   height: 50px;
@@ -277,7 +280,7 @@ footer {
 .flex-container2 {
   height: 85px;
   width: 100%;
-  background-color: rgb(133, 180, 255);
+  background-color: rgba(24, 2, 102, 0.582);
   display: flex;
   justify-content: space-evenly;
   margin-top: -20px;
@@ -323,9 +326,9 @@ footer {
   font-family: "Anton", sans-serif;
   font-family: "Rajdhani", sans-serif;
   text-align: center;
-  color: rgb(207, 203, 203);
+  color: rgb(255, 255, 255);
   font-size: 30px;
-  margin-top: 70px;
+  margin-top: -5px;
   letter-spacing: 5px;
 }
 
@@ -333,9 +336,9 @@ footer {
   font-family: "Anton", sans-serif;
   font-family: "Rajdhani", sans-serif;
   text-align: center;
-  color: rgb(207, 203, 203);
+  color: rgb(255, 255, 255);
   font-size: 30px;
-  margin-top: 62px;
+  margin-top: -12px;
   letter-spacing: 5px;
 }
 
@@ -343,9 +346,9 @@ footer {
   font-family: "Anton", sans-serif;
   font-family: "Rajdhani", sans-serif;
   text-align: center;
-  color: rgb(207, 203, 203);
+  color: rgb(255, 255, 255);
   font-size: 30px;
-  margin-top: 62px;
+  margin-top: -30px;
   letter-spacing: 3px;
 }
 
@@ -353,9 +356,9 @@ footer {
   font-family: "Anton", sans-serif;
   font-family: "Rajdhani", sans-serif;
   text-align: center;
-  color: rgb(207, 203, 203);
+  color: rgb(255, 255, 255);
   font-size: 30px;
-  margin-top: 42px;
+  margin-top: -26px;
   letter-spacing: 5px;
 }
 
@@ -363,9 +366,9 @@ footer {
   font-family: "Anton", sans-serif;
   font-family: "Rajdhani", sans-serif;
   text-align: center;
-  color: rgb(207, 203, 203);
+  color: rgb(255, 255, 255);
   font-size: 30px;
-  margin-top: 42px;
+  margin-top: -25px;
   letter-spacing: 5px;
 }
 
@@ -415,7 +418,7 @@ footer {
       rgba(36, 11, 54, 0.8),
       rgba(195, 20, 50, 0.9)
     ),
-    url("https://i.imgur.com/3vacZxN.jpg") center no-repeat;
+    url("https://images.unsplash.com/photo-1595502427603-3a6b5077ab78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") center ;
   background-size: auto, auto;
   background-size: cover;
   height: 780px;
